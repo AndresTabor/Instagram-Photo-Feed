@@ -1,0 +1,36 @@
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    background-color: #FFFFFF;
+}
+
+h1{
+    margin: auto;
+    font-weight: bold;
+    color: #0D090C;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    color: #EAEAEA;
+    display: flex;
+    justify-content: center;
+}
+
+.card-container{
+    background-color: #FFFFFF;
+    width: 40%;
+    max-width: 480px; 
+    height: 421px;
+    flex: 1;
+}
